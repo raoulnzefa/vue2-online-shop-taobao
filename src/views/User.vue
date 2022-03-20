@@ -1,5 +1,7 @@
 <template>
-
+<!--头部-->
+<!--内容-->
+<!--底部-->
 </template>
 
 <script>

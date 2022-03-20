@@ -1,4 +1,5 @@
 # mine
+仿淘宝，标准模式
 
 ## Project setup
 ```
