@@ -1,0 +1,23 @@
+{
+  "id": "3269257",
+  "name": "淘宝",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "974852",
+      "name": "拍照",
+      "font_class": "paizhao",
+      "unicode": "e6ba",
+      "unicode_decimal": 59066
+    },
+    {
+      "icon_id": "3456461",
+      "name": "扫码",
+      "font_class": "saoma",
+      "unicode": "e712",
+      "unicode_decimal": 59154
+    }
+  ]
+}
