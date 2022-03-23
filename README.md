@@ -1,5 +1,5 @@
 # mine
-仿淘宝，标准模式
+淘宝，移动端
 
 ## Project setup
 ```
