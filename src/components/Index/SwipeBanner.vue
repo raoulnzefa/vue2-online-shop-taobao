@@ -34,8 +34,6 @@ export default {
         pagination: {
           el: '.swiper-pagination',
           clickable: true,
-          // type: 'progressbar',
-
         }
       }
     }
@@ -44,6 +42,11 @@ export default {
 </script>
 
 <style scoped lang="less">
+// 原为1，不设置堆叠顺序，就会把其他标签覆盖
+.swiper-container {
+  z-index: 0;
+}
+
 .swiper {
   height: 150px;
   --swiper-pagination-color: orange;
