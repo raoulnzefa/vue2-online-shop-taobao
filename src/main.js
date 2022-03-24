@@ -4,12 +4,12 @@ import router from './router'
 //引入图标
 import '@/assets/iconfont/iconfont.css'
 // 按需导入组件
-import { Swipe, SwipeItem, Lazyload } from 'vant'
+import { Lazyload } from 'vant'
 
 //注册组件
-Vue.use(Swipe)
-Vue.use(SwipeItem)
-Vue.use(Lazyload)
+Vue.use(Lazyload, {
+  lazyComponent: true,
+})
 
 Vue.config.productionTip = false
 
