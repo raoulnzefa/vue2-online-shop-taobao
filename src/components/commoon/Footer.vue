@@ -28,4 +28,8 @@ export default {
 </script>
 
 <style lang="less" scoped>
+.empty {
+  height: 50px;
+  width: 100%;
+}
 </style>
