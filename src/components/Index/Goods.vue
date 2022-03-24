@@ -40,6 +40,7 @@ export default {
   display: flex;
   justify-content: space-between;
   background-color: #f0f0f0;
+  padding: 0 10px;
 
   .left,
   .right {

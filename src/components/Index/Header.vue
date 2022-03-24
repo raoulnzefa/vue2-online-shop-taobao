@@ -83,7 +83,7 @@ export default {
 .nav {
   display: flex;
   justify-content: space-between;
-  padding: 5px 12px;
+  padding: 5px 10px;
   .left,
   .right {
     //position: relative;
