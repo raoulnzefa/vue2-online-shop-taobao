@@ -31,15 +31,8 @@ $router.push('/search')">
 </template>
 
 <script>
-import { Search, Icon, Button } from 'vant'
 export default {
   name: "Header",
-  components: {
-    [Search.name]: Search,
-    [Icon.name]: Icon,
-    [Button.name]: Button,
-    // [NavBar.name]: NavBar,
-  },
   data() {
     return {
       value: '',
