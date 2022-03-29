@@ -1,6 +1,6 @@
 <template>
 <div class="footer">
-  <van-tabbar v-model="active" active-color="orange" inactive-color="#000" placeholder>
+  <van-tabbar v-model="active" active-color="orange" inactive-color="#000">
     <van-tabbar-item to="/" name="home" icon="home-o">首页</van-tabbar-item>
     <van-tabbar-item to="/categories" name="cate" icon="apps-o">分类</van-tabbar-item>
     <van-tabbar-item to="messages" name="chat" icon="chat-o" badge="10">消息</van-tabbar-item>
