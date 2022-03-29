@@ -1,20 +1,19 @@
 <template>
   <div id="app">
-    <router-view></router-view>
-    <Footer></Footer>
+    <router-view class="container"></router-view>
+    <router-view name="footer"></router-view>
   </div>
 </template>
 
 <script>
-import Footer from "@/components/commoon/Footer"
-export default {
-  components: {
-    Footer
-  }
-}
+export default {}
 </script>
 
 <style lang="less">
+.container {
+  //padding: 0 10px;
+  background-color: #f0f0f0;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

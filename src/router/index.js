@@ -6,20 +6,48 @@ import Detail from "@/views/Detail"
 import Index from "@/views/Index"
 import Message from "@/views/Message"
 import Search from "@/views/Search"
-import ShopCar from "@/views/ShopCar"
+import ShopCart from "@/views/ShopCart"
 import User from "@/views/User"
+import Footer from "@/components/common/Footer"
 
 Vue.use(VueRouter)
 
 const routes = [
-  { path: '/', component: Index },
-  { path: '/categories', component: Category },
-  { path: '/details', component: Detail },
+  {
+    path: '/',
+    components: {
+      default: Index,
+      footer: Footer
+    }
+  }, {
+    path: '/categories',
+    components: {
+      default: Category,
+      footer: Footer
+    }
+  },
   { path: '/index', redirect: '/' },
-  { path: '/messages', component: Message },
+  {
+    path: '/messages',
+    components: {
+      default: Message,
+      footer: Footer
+    }
+  }, {
+    path: '/cart',
+    components: {
+      default: ShopCart,
+      footer: Footer
+    }
+  }, {
+    path: '/user',
+    components: {
+      default: User,
+      footer: Footer
+    }
+  },
+  { path: '/details', component: Detail },
   { path: '/search', component: Search },
-  { path: '/car', component: ShopCar },
-  { path: '/user', component: User },
 ]
 
 const router = new VueRouter({
