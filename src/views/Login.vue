@@ -4,7 +4,7 @@
 
 <script>
 export default {
-  name: "GoodFoot"
+  name: "Login"
 }
 </script>
 
