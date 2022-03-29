@@ -9,6 +9,7 @@ import Search from "@/views/Search"
 import ShopCart from "@/views/ShopCart"
 import User from "@/views/User"
 import Footer from "@/components/common/Footer"
+import GoodFooter from "@/components/Detail/GoodFooter"
 
 Vue.use(VueRouter)
 
@@ -45,8 +46,13 @@ const routes = [
       default: User,
       footer: Footer
     }
+  }, {
+    path: '/details',
+    components: {
+      default: Detail,
+      footer: GoodFooter
+    }
   },
-  { path: '/details', component: Detail },
   { path: '/search', component: Search },
 ]
 
